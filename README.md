@@ -24,3 +24,16 @@ SCENARIO M=4: mu=5, s=1, c=.5
 ============================================================
 Base Stock S=16 (PI): 2.464 [Paper Value: 2.47]
 ```
+### Algorithm 2 results:
+```
+============================================================
+SCENARIO M=2: mu=5, s=1, c=.5 Qa=Qb=10
+============================================================
+Convergence: 12 iterations [Paper expects: 12] 
+Optimal Policy PI: 4.520 [Paper: 5.509]
+Optimal Waste A: 4.92% [Paper: 5.97%]
+Optimal Waste B: 4.96% [Paper: 4.14%]
+Base Stock PI: 4.475 [Paper: 4.479]
+Base Stock Waste A: 6.64% [Paper: 6.26%]
+Base Stock Waste B: 4.73% [Paper: 5.23%]
+```
